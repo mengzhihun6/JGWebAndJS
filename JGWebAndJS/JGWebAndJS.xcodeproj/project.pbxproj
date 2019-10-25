@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DF218D8DFEADCDAF2734BBE /* libPods-JGWebAndJS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F210E6B90BCE03C0FCA801F /* libPods-JGWebAndJS.a */; };
+		53BB9325CCF45CAA57A38D80 /* libPods-JGWebAndJSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2AE9E14342934D5B3E25E4 /* libPods-JGWebAndJSTests.a */; };
+		633383DD23628C0F00380E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633383DC23628C0F00380E8B /* AppDelegate.m */; };
+		633383E323628C0F00380E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633383E123628C0F00380E8B /* Main.storyboard */; };
+		633383E523628C1100380E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633383E423628C1100380E8B /* Assets.xcassets */; };
+		633383E823628C1100380E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633383E623628C1100380E8B /* LaunchScreen.storyboard */; };
+		633383EB23628C1100380E8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633383EA23628C1100380E8B /* main.m */; };
+		633383F523628C1100380E8B /* JGWebAndJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633383F423628C1100380E8B /* JGWebAndJSTests.m */; };
+		6333840023628C1100380E8B /* JGWebAndJSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633383FF23628C1100380E8B /* JGWebAndJSUITests.m */; };
+		6333841323628CE500380E8B /* JGTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333841223628CE500380E8B /* JGTabbarController.m */; };
+		6333841623628CFA00380E8B /* JGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333841523628CFA00380E8B /* JGNavigationController.m */; };
+		6333841923628D0E00380E8B /* JGBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333841823628D0E00380E8B /* JGBaseController.m */; };
+		6333841D23628DDA00380E8B /* JGWebViewJavascriptBridgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333841C23628DDA00380E8B /* JGWebViewJavascriptBridgeController.m */; };
+		6333842023628DE800380E8B /* JGWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333841F23628DE800380E8B /* JGWKWebViewController.m */; };
+		6333847C23628EB800380E8B /* UIView+JGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333843723628EB800380E8B /* UIView+JGExtension.m */; };
+		6333847D23628EB800380E8B /* UITableViewCell+JGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333843923628EB800380E8B /* UITableViewCell+JGExtension.m */; };
+		6333848123628EB800380E8B /* UIColor+JGHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333843E23628EB800380E8B /* UIColor+JGHexColor.m */; };
+		6333849F2362990800380E8B /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 6333849E2362990800380E8B /* test.html */; };
+		633384A12362A93100380E8B /* test2.html in Resources */ = {isa = PBXBuildFile; fileRef = 633384A02362A93100380E8B /* test2.html */; };
+		E180CFD1CC1358E70D84A55B /* libPods-JGWebAndJSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9251E9E28DC91690E76CDE /* libPods-JGWebAndJSUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		633383F123628C1100380E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633383D023628C0F00380E8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633383D723628C0F00380E8B;
+			remoteInfo = JGWebAndJS;
+		};
+		633383FC23628C1100380E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633383D023628C0F00380E8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633383D723628C0F00380E8B;
+			remoteInfo = JGWebAndJS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		389379B49829D6D0842D72CE /* Pods-JGWebAndJSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGWebAndJSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JGWebAndJSUITests/Pods-JGWebAndJSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F897DA73A3D89EF57D6556E /* Pods-JGWebAndJSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGWebAndJSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JGWebAndJSTests/Pods-JGWebAndJSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5859E01964700462C81ADC0F /* Pods-JGWebAndJSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGWebAndJSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JGWebAndJSTests/Pods-JGWebAndJSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		633383D823628C0F00380E8B /* JGWebAndJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGWebAndJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633383DB23628C0F00380E8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		633383DC23628C0F00380E8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		633383E223628C0F00380E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633383E423628C1100380E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633383E723628C1100380E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		633383E923628C1100380E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633383EA23628C1100380E8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		633383F023628C1100380E8B /* JGWebAndJSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGWebAndJSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633383F423628C1100380E8B /* JGWebAndJSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGWebAndJSTests.m; sourceTree = "<group>"; };
+		633383F623628C1100380E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633383FB23628C1100380E8B /* JGWebAndJSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGWebAndJSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633383FF23628C1100380E8B /* JGWebAndJSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGWebAndJSUITests.m; sourceTree = "<group>"; };
+		6333840123628C1100380E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6333841123628CE500380E8B /* JGTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGTabbarController.h; sourceTree = "<group>"; };
+		6333841223628CE500380E8B /* JGTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGTabbarController.m; sourceTree = "<group>"; };
+		6333841423628CFA00380E8B /* JGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGNavigationController.h; sourceTree = "<group>"; };
+		6333841523628CFA00380E8B /* JGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGNavigationController.m; sourceTree = "<group>"; };
+		6333841723628D0E00380E8B /* JGBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGBaseController.h; sourceTree = "<group>"; };
+		6333841823628D0E00380E8B /* JGBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGBaseController.m; sourceTree = "<group>"; };
+		6333841B23628DDA00380E8B /* JGWebViewJavascriptBridgeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGWebViewJavascriptBridgeController.h; sourceTree = "<group>"; };
+		6333841C23628DDA00380E8B /* JGWebViewJavascriptBridgeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGWebViewJavascriptBridgeController.m; sourceTree = "<group>"; };
+		6333841E23628DE800380E8B /* JGWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGWKWebViewController.h; sourceTree = "<group>"; };
+		6333841F23628DE800380E8B /* JGWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGWKWebViewController.m; sourceTree = "<group>"; };
+		6333843023628EB800380E8B /* UIColor+JGHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JGHexColor.h"; sourceTree = "<group>"; };
+		6333843723628EB800380E8B /* UIView+JGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JGExtension.m"; sourceTree = "<group>"; };
+		6333843923628EB800380E8B /* UITableViewCell+JGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+JGExtension.m"; sourceTree = "<group>"; };
+		6333843E23628EB800380E8B /* UIColor+JGHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JGHexColor.m"; sourceTree = "<group>"; };
+		6333844023628EB800380E8B /* UIView+JGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JGExtension.h"; sourceTree = "<group>"; };
+		6333844723628EB800380E8B /* UITableViewCell+JGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+JGExtension.h"; sourceTree = "<group>"; };
+		6333849D23628ED600380E8B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6333849E2362990800380E8B /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		633384A02362A93100380E8B /* test2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test2.html; sourceTree = "<group>"; };
+		6F210E6B90BCE03C0FCA801F /* libPods-JGWebAndJS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JGWebAndJS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9251E9E28DC91690E76CDE /* libPods-JGWebAndJSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JGWebAndJSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E62E5BB07F50B30A04AE690 /* Pods-JGWebAndJS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGWebAndJS.release.xcconfig"; path = "Pods/Target Support Files/Pods-JGWebAndJS/Pods-JGWebAndJS.release.xcconfig"; sourceTree = "<group>"; };
+		BD2AE9E14342934D5B3E25E4 /* libPods-JGWebAndJSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JGWebAndJSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7713E64612D5A856ADF5944 /* Pods-JGWebAndJS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGWebAndJS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JGWebAndJS/Pods-JGWebAndJS.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE1E9FF009B97A95D1C86C5 /* Pods-JGWebAndJSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGWebAndJSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JGWebAndJSUITests/Pods-JGWebAndJSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633383D523628C0F00380E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF218D8DFEADCDAF2734BBE /* libPods-JGWebAndJS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633383ED23628C1100380E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BB9325CCF45CAA57A38D80 /* libPods-JGWebAndJSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633383F823628C1100380E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E180CFD1CC1358E70D84A55B /* libPods-JGWebAndJSUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633383CF23628C0F00380E8B = {
+			isa = PBXGroup;
+			children = (
+				633383DA23628C0F00380E8B /* JGWebAndJS */,
+				633383F323628C1100380E8B /* JGWebAndJSTests */,
+				633383FE23628C1100380E8B /* JGWebAndJSUITests */,
+				633383D923628C0F00380E8B /* Products */,
+				BA4A93014D3F9FD8D8D7C4B9 /* Pods */,
+				8C23F8D2E6814F2873E1C91D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		633383D923628C0F00380E8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633383D823628C0F00380E8B /* JGWebAndJS.app */,
+				633383F023628C1100380E8B /* JGWebAndJSTests.xctest */,
+				633383FB23628C1100380E8B /* JGWebAndJSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633383DA23628C0F00380E8B /* JGWebAndJS */ = {
+			isa = PBXGroup;
+			children = (
+				6333840F23628CA300380E8B /* Apps */,
+				6333841023628CB400380E8B /* Base */,
+				6333841A23628DB900380E8B /* WebViewJavascriptBridge */,
+				6333840E23628C8E00380E8B /* WKWebView */,
+				6333842123628E8C00380E8B /* Tool */,
+				6333840D23628C3F00380E8B /* Supporting Files */,
+			);
+			path = JGWebAndJS;
+			sourceTree = "<group>";
+		};
+		633383F323628C1100380E8B /* JGWebAndJSTests */ = {
+			isa = PBXGroup;
+			children = (
+				633383F423628C1100380E8B /* JGWebAndJSTests.m */,
+				633383F623628C1100380E8B /* Info.plist */,
+			);
+			path = JGWebAndJSTests;
+			sourceTree = "<group>";
+		};
+		633383FE23628C1100380E8B /* JGWebAndJSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				633383FF23628C1100380E8B /* JGWebAndJSUITests.m */,
+				6333840123628C1100380E8B /* Info.plist */,
+			);
+			path = JGWebAndJSUITests;
+			sourceTree = "<group>";
+		};
+		6333840D23628C3F00380E8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				633383E123628C0F00380E8B /* Main.storyboard */,
+				633383E423628C1100380E8B /* Assets.xcassets */,
+				633383E623628C1100380E8B /* LaunchScreen.storyboard */,
+				633383E923628C1100380E8B /* Info.plist */,
+				633383EA23628C1100380E8B /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6333840E23628C8E00380E8B /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				6333841E23628DE800380E8B /* JGWKWebViewController.h */,
+				6333841F23628DE800380E8B /* JGWKWebViewController.m */,
+				6333849E2362990800380E8B /* test.html */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		6333840F23628CA300380E8B /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				633383DB23628C0F00380E8B /* AppDelegate.h */,
+				633383DC23628C0F00380E8B /* AppDelegate.m */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		6333841023628CB400380E8B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6333841123628CE500380E8B /* JGTabbarController.h */,
+				6333841223628CE500380E8B /* JGTabbarController.m */,
+				6333841423628CFA00380E8B /* JGNavigationController.h */,
+				6333841523628CFA00380E8B /* JGNavigationController.m */,
+				6333841723628D0E00380E8B /* JGBaseController.h */,
+				6333841823628D0E00380E8B /* JGBaseController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6333841A23628DB900380E8B /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				6333841B23628DDA00380E8B /* JGWebViewJavascriptBridgeController.h */,
+				6333841C23628DDA00380E8B /* JGWebViewJavascriptBridgeController.m */,
+				633384A02362A93100380E8B /* test2.html */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		6333842123628E8C00380E8B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6333842223628EB800380E8B /* Category */,
+				6333849D23628ED600380E8B /* PrefixHeader.pch */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6333842223628EB800380E8B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6333843023628EB800380E8B /* UIColor+JGHexColor.h */,
+				6333843E23628EB800380E8B /* UIColor+JGHexColor.m */,
+				6333844723628EB800380E8B /* UITableViewCell+JGExtension.h */,
+				6333843923628EB800380E8B /* UITableViewCell+JGExtension.m */,
+				6333844023628EB800380E8B /* UIView+JGExtension.h */,
+				6333843723628EB800380E8B /* UIView+JGExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8C23F8D2E6814F2873E1C91D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F210E6B90BCE03C0FCA801F /* libPods-JGWebAndJS.a */,
+				BD2AE9E14342934D5B3E25E4 /* libPods-JGWebAndJSTests.a */,
+				8D9251E9E28DC91690E76CDE /* libPods-JGWebAndJSUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA4A93014D3F9FD8D8D7C4B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7713E64612D5A856ADF5944 /* Pods-JGWebAndJS.debug.xcconfig */,
+				9E62E5BB07F50B30A04AE690 /* Pods-JGWebAndJS.release.xcconfig */,
+				5859E01964700462C81ADC0F /* Pods-JGWebAndJSTests.debug.xcconfig */,
+				3F897DA73A3D89EF57D6556E /* Pods-JGWebAndJSTests.release.xcconfig */,
+				FEE1E9FF009B97A95D1C86C5 /* Pods-JGWebAndJSUITests.debug.xcconfig */,
+				389379B49829D6D0842D72CE /* Pods-JGWebAndJSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633383D723628C0F00380E8B /* JGWebAndJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6333840423628C1100380E8B /* Build configuration list for PBXNativeTarget "JGWebAndJS" */;
+			buildPhases = (
+				CED4A294BC93DDE523C95340 /* [CP] Check Pods Manifest.lock */,
+				633383D423628C0F00380E8B /* Sources */,
+				633383D523628C0F00380E8B /* Frameworks */,
+				633383D623628C0F00380E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGWebAndJS;
+			productName = JGWebAndJS;
+			productReference = 633383D823628C0F00380E8B /* JGWebAndJS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		633383EF23628C1100380E8B /* JGWebAndJSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6333840723628C1100380E8B /* Build configuration list for PBXNativeTarget "JGWebAndJSTests" */;
+			buildPhases = (
+				F048BECECF0DFBAD5128EF3C /* [CP] Check Pods Manifest.lock */,
+				633383EC23628C1100380E8B /* Sources */,
+				633383ED23628C1100380E8B /* Frameworks */,
+				633383EE23628C1100380E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633383F223628C1100380E8B /* PBXTargetDependency */,
+			);
+			name = JGWebAndJSTests;
+			productName = JGWebAndJSTests;
+			productReference = 633383F023628C1100380E8B /* JGWebAndJSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		633383FA23628C1100380E8B /* JGWebAndJSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6333840A23628C1100380E8B /* Build configuration list for PBXNativeTarget "JGWebAndJSUITests" */;
+			buildPhases = (
+				87F4B53C7E8FC70E82C4294C /* [CP] Check Pods Manifest.lock */,
+				633383F723628C1100380E8B /* Sources */,
+				633383F823628C1100380E8B /* Frameworks */,
+				633383F923628C1100380E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633383FD23628C1100380E8B /* PBXTargetDependency */,
+			);
+			name = JGWebAndJSUITests;
+			productName = JGWebAndJSUITests;
+			productReference = 633383FB23628C1100380E8B /* JGWebAndJSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633383D023628C0F00380E8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JG;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JG;
+				TargetAttributes = {
+					633383D723628C0F00380E8B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					633383EF23628C1100380E8B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 633383D723628C0F00380E8B;
+					};
+					633383FA23628C1100380E8B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 633383D723628C0F00380E8B;
+					};
+				};
+			};
+			buildConfigurationList = 633383D323628C0F00380E8B /* Build configuration list for PBXProject "JGWebAndJS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633383CF23628C0F00380E8B;
+			productRefGroup = 633383D923628C0F00380E8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633383D723628C0F00380E8B /* JGWebAndJS */,
+				633383EF23628C1100380E8B /* JGWebAndJSTests */,
+				633383FA23628C1100380E8B /* JGWebAndJSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633383D623628C0F00380E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6333849F2362990800380E8B /* test.html in Resources */,
+				633383E823628C1100380E8B /* LaunchScreen.storyboard in Resources */,
+				633383E523628C1100380E8B /* Assets.xcassets in Resources */,
+				633384A12362A93100380E8B /* test2.html in Resources */,
+				633383E323628C0F00380E8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633383EE23628C1100380E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633383F923628C1100380E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87F4B53C7E8FC70E82C4294C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JGWebAndJSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED4A294BC93DDE523C95340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JGWebAndJS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F048BECECF0DFBAD5128EF3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JGWebAndJSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633383D423628C0F00380E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6333842023628DE800380E8B /* JGWKWebViewController.m in Sources */,
+				6333841D23628DDA00380E8B /* JGWebViewJavascriptBridgeController.m in Sources */,
+				6333847D23628EB800380E8B /* UITableViewCell+JGExtension.m in Sources */,
+				6333841323628CE500380E8B /* JGTabbarController.m in Sources */,
+				6333847C23628EB800380E8B /* UIView+JGExtension.m in Sources */,
+				633383EB23628C1100380E8B /* main.m in Sources */,
+				6333841923628D0E00380E8B /* JGBaseController.m in Sources */,
+				633383DD23628C0F00380E8B /* AppDelegate.m in Sources */,
+				6333848123628EB800380E8B /* UIColor+JGHexColor.m in Sources */,
+				6333841623628CFA00380E8B /* JGNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633383EC23628C1100380E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633383F523628C1100380E8B /* JGWebAndJSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633383F723628C1100380E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6333840023628C1100380E8B /* JGWebAndJSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		633383F223628C1100380E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633383D723628C0F00380E8B /* JGWebAndJS */;
+			targetProxy = 633383F123628C1100380E8B /* PBXContainerItemProxy */;
+		};
+		633383FD23628C1100380E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633383D723628C0F00380E8B /* JGWebAndJS */;
+			targetProxy = 633383FC23628C1100380E8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		633383E123628C0F00380E8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633383E223628C0F00380E8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633383E623628C1100380E8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633383E723628C1100380E8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6333840223628C1100380E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6333840323628C1100380E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6333840523628C1100380E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7713E64612D5A856ADF5944 /* Pods-JGWebAndJS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = JGWebAndJS/Tool/PrefixHeader.pch;
+				INFOPLIST_FILE = "JGWebAndJS/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGWebAndJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6333840623628C1100380E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E62E5BB07F50B30A04AE690 /* Pods-JGWebAndJS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = JGWebAndJS/Tool/PrefixHeader.pch;
+				INFOPLIST_FILE = "JGWebAndJS/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGWebAndJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6333840823628C1100380E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5859E01964700462C81ADC0F /* Pods-JGWebAndJSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGWebAndJSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGWebAndJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGWebAndJS.app/JGWebAndJS";
+			};
+			name = Debug;
+		};
+		6333840923628C1100380E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F897DA73A3D89EF57D6556E /* Pods-JGWebAndJSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGWebAndJSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGWebAndJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGWebAndJS.app/JGWebAndJS";
+			};
+			name = Release;
+		};
+		6333840B23628C1100380E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE1E9FF009B97A95D1C86C5 /* Pods-JGWebAndJSUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGWebAndJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGWebAndJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JGWebAndJS;
+			};
+			name = Debug;
+		};
+		6333840C23628C1100380E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389379B49829D6D0842D72CE /* Pods-JGWebAndJSUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGWebAndJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGWebAndJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JGWebAndJS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633383D323628C0F00380E8B /* Build configuration list for PBXProject "JGWebAndJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6333840223628C1100380E8B /* Debug */,
+				6333840323628C1100380E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6333840423628C1100380E8B /* Build configuration list for PBXNativeTarget "JGWebAndJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6333840523628C1100380E8B /* Debug */,
+				6333840623628C1100380E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6333840723628C1100380E8B /* Build configuration list for PBXNativeTarget "JGWebAndJSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6333840823628C1100380E8B /* Debug */,
+				6333840923628C1100380E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6333840A23628C1100380E8B /* Build configuration list for PBXNativeTarget "JGWebAndJSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6333840B23628C1100380E8B /* Debug */,
+				6333840C23628C1100380E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 633383D023628C0F00380E8B /* Project object */;
+}

@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  JGWebAndJS
+//
+//  Created by 郭军 on 2019/10/25.
+//  Copyright © 2019 JG. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#import "UIColor+JGHexColor.h"
+#import "UIView+JGExtension.h"
+#import "UITableViewCell+JGExtension.h"
+
+
+
+
+#define JGLog(fmt, ...) NSLog((@"%s [Line %d] " fmt),__PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define JGLogFunc JGLog(@"%s", __func__);
+
+
+/*************************  颜色  *********************************/
+//颜色定义
+#define JGRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define JGRandomColor   JGRGBColor(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
+
+//主色调
+#define JGMainColor [UIColor colorWithHexCode:@"#ff0036"]
+#define JG333Color [UIColor colorWithHexCode:@"#333333"]
+#define JG999Color [UIColor colorWithHexCode:@"#999999"]
+#define JG666Color [UIColor colorWithHexCode:@"#666666"]
+
+//分割线颜色
+#define JGLineColor [UIColor colorWithHexCode:@"#D4D4D4"]
+#define JGHexColor(hexCode) [UIColor colorWithHexCode:hexCode] //图片
+
+
+
+#endif /* PrefixHeader_pch */
